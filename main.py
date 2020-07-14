@@ -386,8 +386,6 @@ async def fyou(ctx, loop: bool):
         voice = await channel.connect()
         voice.play(discord.FFmpegPCMAudio("./sound/fyou.mp3"))
 
-    while loop == True:
-        
     
 
 
@@ -402,4 +400,4 @@ async def fyou(ctx, loop: bool):
 
 
 
-client.run('NzI5NDI5MzkwMzExNTU1MTQ0.XwI0ig.H58Xrow-dHSVXRMPX0lpZt1FUNI')
+client.run('')
